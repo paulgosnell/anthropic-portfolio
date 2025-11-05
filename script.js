@@ -188,7 +188,46 @@ document.addEventListener('DOMContentLoaded', async function() {
     animateWaveformIdle();
 });
 
-// Log site build info
-console.log('%c⚡ Paul Gosnell - Anthropic Frontier Prototyping', 'font-size: 20px; font-weight: bold; color: #0A0A0A;');
-console.log('%cBuilt with Claude Code in under 5 hours', 'font-size: 14px; color: #525252;');
-console.log('%cApplying to: Software Engineer, Frontier Prototyping', 'font-size: 12px; color: #A3A3A3;');
+// Console Easter Egg
+console.log('%c\n' +
+'   _____ _                 _      \n' +
+'  / ____| |               | |     \n' +
+' | |    | | __ _ _   _  __| | ___ \n' +
+' | |    | |/ _` | | | |/ _` |/ _ \\\n' +
+' | |____| | (_| | |_| | (_| |  __/\n' +
+'  \\_____|_|\\__,_|\\__,_|\\__,_|\\___|\n\n',
+'color: #D97757; font-family: monospace; font-size: 12px; font-weight: bold;');
+
+console.log('%c🎯 Built for Anthropic with Claude Code', 'color: #D97757; font-size: 16px; font-weight: bold;');
+console.log('%c\nApplying to: Software Engineer, Frontier Prototyping\n', 'color: #0A0A0A; font-size: 14px;');
+
+console.log('%c━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 'color: #D97757;');
+
+console.log('%c\nHi Anthropic team! 👋\n', 'color: #0A0A0A; font-size: 14px; font-weight: bold;');
+console.log('%cIf you\'re reading this, you\'re the kind of person I want to work with.\n', 'color: #525252; font-size: 12px;');
+
+console.log('%cThis entire page was built in under 5 hours using Claude Code.', 'color: #0A0A0A; font-size: 12px;');
+console.log('%cEvery line of code was written through conversation with Claude Sonnet 4.5.\n', 'color: #525252; font-size: 12px;');
+
+console.log('%c✓ Voice agent: Real (click the waveform)', 'color: #2A9D8F; font-size: 11px;');
+console.log('%c✓ MCP server: Published on NPM (@chilledsites/mcp-server)', 'color: #2A9D8F; font-size: 11px;');
+console.log('%c✓ Neural network: Pure canvas animation (no library)', 'color: #2A9D8F; font-size: 11px;');
+console.log('%c✓ Social proof: Live Twitter embeds', 'color: #2A9D8F; font-size: 11px;');
+console.log('%c✓ Load time: <2 seconds (85KB total)', 'color: #2A9D8F; font-size: 11px;');
+console.log('%c✓ Framework: None (vanilla HTML/CSS/JS)\n', 'color: #2A9D8F; font-size: 11px;');
+
+console.log('%c━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 'color: #D97757;');
+
+console.log('%c\nI\'ve been building at frontiers for 20 years.', 'color: #0A0A0A; font-size: 12px;');
+console.log('%cFrom e-commerce in 2004 to AI-native development in 2024.\n', 'color: #525252; font-size: 12px;');
+
+console.log('%cI don\'t just talk about rapid prototyping.\nI ship it.\n', 'color: #0A0A0A; font-size: 13px; font-weight: bold;');
+
+console.log('%cLet\'s build the future of AI interfaces together.\n', 'color: #D97757; font-size: 12px; font-weight: bold;');
+
+console.log('%c- Paul Gosnell', 'color: #0A0A0A; font-size: 12px; font-weight: bold;');
+console.log('%c  hello@P0STMAN.com', 'color: #525252; font-size: 11px;');
+console.log('%c  linkedin.com/in/pgosnell', 'color: #525252; font-size: 11px;');
+console.log('%c  github.com/paulgosnell/anthropic-portfolio\n', 'color: #525252; font-size: 11px;');
+
+console.log('%c━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n', 'color: #D97757;');
